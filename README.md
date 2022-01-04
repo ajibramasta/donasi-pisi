@@ -36,5 +36,15 @@
 - Repository Service
 - Eloquent Relationship
 
-![](https://renandatta.com/assets/file/zJNmvsbp8yr6TpsQ_file.png)
+##CARA INSTALL
+Open terminal / git bash
+git clone [url_github]
+cd [nama_repo]
+composer install
+cp .env.example .env
+setting database and email konfigurasi di .env
+php artisan key:generate
+php artisan migrate:fresh --seed
+php artisan storage:link
+
 # upz-uinsa
